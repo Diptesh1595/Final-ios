@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1972C3842C72C49B00328FB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1972C3832C72C49B00328FB9 /* AppDelegate.swift */; };
+		1972C3862C72C49B00328FB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1972C3852C72C49B00328FB9 /* SceneDelegate.swift */; };
+		1972C3882C72C49B00328FB9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1972C3872C72C49B00328FB9 /* HomeViewController.swift */; };
+		1972C38B2C72C49B00328FB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1972C3892C72C49B00328FB9 /* Main.storyboard */; };
+		1972C38E2C72C49B00328FB9 /* Diptesh_s_Trip_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1972C38C2C72C49B00328FB9 /* Diptesh_s_Trip_App.xcdatamodeld */; };
+		1972C3902C72C49C00328FB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1972C38F2C72C49C00328FB9 /* Assets.xcassets */; };
+		1972C3932C72C49C00328FB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1972C3912C72C49C00328FB9 /* LaunchScreen.storyboard */; };
+		1972C39B2C72CF5200328FB9 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1972C39A2C72CF5200328FB9 /* ListViewController.swift */; };
+		1972C39D2C72CF6200328FB9 /* AddNewTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1972C39C2C72CF6200328FB9 /* AddNewTripViewController.swift */; };
+		1972C39F2C72CF6E00328FB9 /* AddExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1972C39E2C72CF6D00328FB9 /* AddExpenseViewController.swift */; };
+		1972C3A12C72CF7500328FB9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1972C3A02C72CF7500328FB9 /* DetailViewController.swift */; };
+		1972C3A62C72D84C00328FB9 /* TripExpenseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1972C3A52C72D84C00328FB9 /* TripExpenseTableViewCell.swift */; };
+		1972C3A82C72D85B00328FB9 /* TripTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1972C3A72C72D85B00328FB9 /* TripTableViewCell.swift */; };
+		1972C3AA2C72D93500328FB9 /* TripModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1972C3A92C72D93500328FB9 /* TripModel.swift */; };
+		1972C3AC2C72D95100328FB9 /* GlobalMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1972C3AB2C72D95100328FB9 /* GlobalMethods.swift */; };
+		1972C3AE2C72D9A800328FB9 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1972C3AD2C72D9A800328FB9 /* WeatherModel.swift */; };
+		1972C3B02C72DB9B00328FB9 /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1972C3AF2C72DB9B00328FB9 /* CoreData.swift */; };
+		1972C3B22C72E46900328FB9 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1972C3B12C72E46900328FB9 /* WeatherManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1972C3802C72C49B00328FB9 /* Diptesh's Trip App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Diptesh's Trip App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1972C3832C72C49B00328FB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1972C3852C72C49B00328FB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1972C3872C72C49B00328FB9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1972C38A2C72C49B00328FB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1972C38D2C72C49B00328FB9 /* Diptesh_s_Trip_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Diptesh_s_Trip_App.xcdatamodel; sourceTree = "<group>"; };
+		1972C38F2C72C49C00328FB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1972C3922C72C49C00328FB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1972C3942C72C49C00328FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1972C39A2C72CF5200328FB9 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		1972C39C2C72CF6200328FB9 /* AddNewTripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewTripViewController.swift; sourceTree = "<group>"; };
+		1972C39E2C72CF6D00328FB9 /* AddExpenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseViewController.swift; sourceTree = "<group>"; };
+		1972C3A02C72CF7500328FB9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1972C3A52C72D84C00328FB9 /* TripExpenseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripExpenseTableViewCell.swift; sourceTree = "<group>"; };
+		1972C3A72C72D85B00328FB9 /* TripTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTableViewCell.swift; sourceTree = "<group>"; };
+		1972C3A92C72D93500328FB9 /* TripModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripModel.swift; sourceTree = "<group>"; };
+		1972C3AB2C72D95100328FB9 /* GlobalMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalMethods.swift; sourceTree = "<group>"; };
+		1972C3AD2C72D9A800328FB9 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		1972C3AF2C72DB9B00328FB9 /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		1972C3B12C72E46900328FB9 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1972C37D2C72C49B00328FB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1972C3772C72C49B00328FB9 = {
+			isa = PBXGroup;
+			children = (
+				1972C3822C72C49B00328FB9 /* Diptesh's Trip App */,
+				1972C3812C72C49B00328FB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1972C3812C72C49B00328FB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1972C3802C72C49B00328FB9 /* Diptesh's Trip App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1972C3822C72C49B00328FB9 /* Diptesh's Trip App */ = {
+			isa = PBXGroup;
+			children = (
+				1972C3832C72C49B00328FB9 /* AppDelegate.swift */,
+				1972C3852C72C49B00328FB9 /* SceneDelegate.swift */,
+				1972C3AB2C72D95100328FB9 /* GlobalMethods.swift */,
+				1972C3AF2C72DB9B00328FB9 /* CoreData.swift */,
+				1972C3B12C72E46900328FB9 /* WeatherManager.swift */,
+				1972C3A42C72D83300328FB9 /* View */,
+				1972C3A32C72D82A00328FB9 /* Model */,
+				1972C3A22C72D81300328FB9 /* Controller */,
+				1972C3892C72C49B00328FB9 /* Main.storyboard */,
+				1972C38F2C72C49C00328FB9 /* Assets.xcassets */,
+				1972C3912C72C49C00328FB9 /* LaunchScreen.storyboard */,
+				1972C3942C72C49C00328FB9 /* Info.plist */,
+				1972C38C2C72C49B00328FB9 /* Diptesh_s_Trip_App.xcdatamodeld */,
+			);
+			path = "Diptesh's Trip App";
+			sourceTree = "<group>";
+		};
+		1972C3A22C72D81300328FB9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1972C3872C72C49B00328FB9 /* HomeViewController.swift */,
+				1972C39A2C72CF5200328FB9 /* ListViewController.swift */,
+				1972C39C2C72CF6200328FB9 /* AddNewTripViewController.swift */,
+				1972C39E2C72CF6D00328FB9 /* AddExpenseViewController.swift */,
+				1972C3A02C72CF7500328FB9 /* DetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1972C3A32C72D82A00328FB9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1972C3A92C72D93500328FB9 /* TripModel.swift */,
+				1972C3AD2C72D9A800328FB9 /* WeatherModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1972C3A42C72D83300328FB9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1972C3A52C72D84C00328FB9 /* TripExpenseTableViewCell.swift */,
+				1972C3A72C72D85B00328FB9 /* TripTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1972C37F2C72C49B00328FB9 /* Diptesh's Trip App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1972C3972C72C49C00328FB9 /* Build configuration list for PBXNativeTarget "Diptesh's Trip App" */;
+			buildPhases = (
+				1972C37C2C72C49B00328FB9 /* Sources */,
+				1972C37D2C72C49B00328FB9 /* Frameworks */,
+				1972C37E2C72C49B00328FB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Diptesh's Trip App";
+			productName = "Diptesh's Trip App";
+			productReference = 1972C3802C72C49B00328FB9 /* Diptesh's Trip App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1972C3782C72C49B00328FB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					1972C37F2C72C49B00328FB9 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 1972C37B2C72C49B00328FB9 /* Build configuration list for PBXProject "Diptesh's Trip App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1972C3772C72C49B00328FB9;
+			productRefGroup = 1972C3812C72C49B00328FB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1972C37F2C72C49B00328FB9 /* Diptesh's Trip App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1972C37E2C72C49B00328FB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1972C3932C72C49C00328FB9 /* LaunchScreen.storyboard in Resources */,
+				1972C3902C72C49C00328FB9 /* Assets.xcassets in Resources */,
+				1972C38B2C72C49B00328FB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1972C37C2C72C49B00328FB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1972C38E2C72C49B00328FB9 /* Diptesh_s_Trip_App.xcdatamodeld in Sources */,
+				1972C3A62C72D84C00328FB9 /* TripExpenseTableViewCell.swift in Sources */,
+				1972C3882C72C49B00328FB9 /* HomeViewController.swift in Sources */,
+				1972C3AC2C72D95100328FB9 /* GlobalMethods.swift in Sources */,
+				1972C3B02C72DB9B00328FB9 /* CoreData.swift in Sources */,
+				1972C3842C72C49B00328FB9 /* AppDelegate.swift in Sources */,
+				1972C3AE2C72D9A800328FB9 /* WeatherModel.swift in Sources */,
+				1972C3A82C72D85B00328FB9 /* TripTableViewCell.swift in Sources */,
+				1972C39B2C72CF5200328FB9 /* ListViewController.swift in Sources */,
+				1972C39D2C72CF6200328FB9 /* AddNewTripViewController.swift in Sources */,
+				1972C3862C72C49B00328FB9 /* SceneDelegate.swift in Sources */,
+				1972C39F2C72CF6E00328FB9 /* AddExpenseViewController.swift in Sources */,
+				1972C3B22C72E46900328FB9 /* WeatherManager.swift in Sources */,
+				1972C3A12C72CF7500328FB9 /* DetailViewController.swift in Sources */,
+				1972C3AA2C72D93500328FB9 /* TripModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1972C3892C72C49B00328FB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1972C38A2C72C49B00328FB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1972C3912C72C49C00328FB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1972C3922C72C49C00328FB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1972C3952C72C49C00328FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1972C3962C72C49C00328FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1972C3982C72C49C00328FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Diptesh's Trip App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Diptesh-Final";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "this app will use your location to work properly";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Diptesh.Diptesh-s-Trip-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1972C3992C72C49C00328FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Diptesh's Trip App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Diptesh-Final";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "this app will use your location to work properly";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Diptesh.Diptesh-s-Trip-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1972C37B2C72C49B00328FB9 /* Build configuration list for PBXProject "Diptesh's Trip App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1972C3952C72C49C00328FB9 /* Debug */,
+				1972C3962C72C49C00328FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1972C3972C72C49C00328FB9 /* Build configuration list for PBXNativeTarget "Diptesh's Trip App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1972C3982C72C49C00328FB9 /* Debug */,
+				1972C3992C72C49C00328FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1972C38C2C72C49B00328FB9 /* Diptesh_s_Trip_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1972C38D2C72C49B00328FB9 /* Diptesh_s_Trip_App.xcdatamodel */,
+			);
+			currentVersion = 1972C38D2C72C49B00328FB9 /* Diptesh_s_Trip_App.xcdatamodel */;
+			path = Diptesh_s_Trip_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1972C3782C72C49B00328FB9 /* Project object */;
+}
